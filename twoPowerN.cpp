@@ -6,8 +6,10 @@ long long powerTwo(int n){
     if(n==0) return 1;
     
     int ans = powerTwo(n/2);
+    // for odd
     if(n&1)
     return 2*ans*ans;
+    //for even
     else
     return ans*ans;
 }
