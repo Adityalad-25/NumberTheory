@@ -1,9 +1,8 @@
-// A school method based C++ program to
 // check if a number is prime
 #include <bits/stdc++.h>
 using namespace std;
 
-// Function check whether a number is prime or not
+
 bool isPrime(int n)
 {
 	// Check if n=1 or n=0
@@ -25,7 +24,7 @@ bool isPrime(int n)
 	return true;
 }
 
-// Driver Code
+
 int main()
 {
 	isPrime(11) ? cout << "true\n" : cout << "false\n";
